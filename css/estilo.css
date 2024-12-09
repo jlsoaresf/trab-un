@@ -1,0 +1,101 @@
+/* Define branco cor padrão para todos os textos */
+* {
+  color: white;
+}
+/* Define a cor de fundo do body */
+body {
+  background-color: #aceef7;
+}
+/* Configura o header definindo a cor de fundo, o arredondamento da borda, margem, preenchimento e centraliza os links */
+header {
+  background-color: #0260ee;
+  border-radius: 0 0 150px 150px;
+  margin: 0 20px;
+  padding: 40px 0;
+  text-align: center;
+}
+/* Configura os links do header para mostra em bloco e em linha, retira decorações, arredonda as bordas e habilita as transiçoes. Além disso define cor de fundo, tamanho da fonte, tamanho e preenchimento do bloco. */
+header a {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 150px 0;
+  background-color: #ee9002;
+  font-size: 1.5rem;
+  width: 170px;
+  padding-bottom: 5px;
+  transition: 0.8s;
+}
+/* Muda cor de fundo e preenchimento dos links do header quando o mouse estiver sobre */
+header a:hover {
+  background-color: #ee0260;
+  padding: 0 20px 5px 20px;   
+}
+/* Configura Cor de fundo e cor de letra para links da classe ativo */
+a.ativo { 
+  background-color: white;
+  color: #9002ee;
+}
+/* Muda cor de fundo e da letra dos links da classe ativo quando o mouse estiver sobre */
+a.ativo:hover { 
+  background-color: #9002ee;
+  color: white;
+}
+/* Configura o tamanho da fonte, preenchimento e centraliza do elemento h1 */
+h1 {   
+  font-size: 2.5rem;
+  padding-top: 45px;
+  text-align: center;
+}
+/* Configura o tamanho, margens, cor de fundo e arredonda bordas da div de id principal */ 
+#principal {
+  width: 920px;
+  margin: 20px auto;
+  border-radius: 150px 0px;
+  background-color: #0260ee;
+}
+/* Configura o tamanho da fonte, identação do texto, preenchimento e alinhamento do texto da div de id texto */ 
+#texto {   
+  font-size: 1.9rem;
+  text-indent: 2rem;
+  padding: 5px 50px 50px 50px;
+  text-align: justify;
+}
+/* Configura preenchimento e centraliza o conteudo */ 
+#port {   
+  text-align: center;
+  padding: 10px 0 100px 0;
+}
+/* Configura as margens do elemento img */ 
+img {
+ margin: 0 10px;
+}
+/* Centraliza a tabela */
+table {
+  margin: auto;
+}
+/* Centraliza os elementos da tabela */
+td{
+  text-align: center;
+}
+/* Configura a cor do texto, tamanho de fonte e arredonda as bordas dos elementos textarea e input */
+textarea, input {
+  color: black;
+  font-size: 1.4rem;
+  border-radius: 10px;
+}
+/* Configura cor de fundo, tipo de borda, cor do texto, preenchimento e habilita transições do elemento input de tipo submit */
+input[type=submit] {
+  background-color: #ee9002;
+  border: none;
+  color: white;
+  padding: 2px 20px;
+  transition: 0.8s;
+}
+/* Configura cor de fundo e preenchimento do elemento input de tipo submit quando o mouse estiver sobre*/
+input[type=submit]:hover {
+  background-color: #ee0260;
+  padding: 2px 40px;   
+}
+
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titulo da pagina -->
+    <title>Contato</title>
+    <!-- Importação do css -->
+    <link rel="stylesheet" href="/css/estilo.css">
+  </head>
+  <body>
+    <header>
+      <!-- Div de id menu contendo o menu de navegação -->
+      <div id="menu">
+        <a href="index.html">Sobre Mim</a></li>
+        <a href="/formacao.html">Formação</a></li>
+        <a href="/portfolio.html">Portifólio</a></li>
+        <!-- Link da pagina atual marcado com classe para destacar e sem destino -->
+        <a class="ativo" href="">Contato</a></li>
+      </div>
+    </header>
+    <!-- Div de id principal usado pelo css para estilizar bordas e centralizar o conteudo principal -->
+    <div id="principal">
+      <!-- Titulo do assunto  -->
+      <h1>Contato</h1>
+      <!-- Div de id texto contem o conteudo principal e usado pelo css para formatar o texto  -->
+      <div id="texto">
+        <!-- Formulario de contato -->
+        <form>
+          <!-- Tabela usada para formartar as posições dos elementos do formulario, colspan usado para os elementos ocuparem 2 colunas da tabela -->
+          <table>
+            <tr>
+              <th>Nome:</th>
+              <td><input type="text" id="nome" name="nome" size="48"></td>
+            </tr>
+            <tr>
+              <th>Email:</th>
+              <td><input type="email" id="email" name="email" size="48"></td>
+            </tr>
+            <tr>
+              <td colspan="2" style="font-size: 2rem;">Mensagem</td>
+            </tr>
+            <tr>
+              <td colspan="2"><textarea id="mensagem" name="msg" cols="50" rows="6"></textarea></td>
+            </tr>
+            <tr>
+              <td colspan="2"><input class="botao" type="submit" value="Enviar mensagem"></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>  
+  </body>
+</html>
